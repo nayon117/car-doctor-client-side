@@ -3,7 +3,7 @@ import parts from "../assets/images/about_us/parts.jpg";
 
 const AboutSec = () => {
   return (
-    <div className="hero min-h-screen py-10">
+    <div className="hero min-h-screen py-10 ">
       <div className="hero-content flex-col lg:flex-row">
         <div className="lg:flex-1 relative">
           <img src={person} className="w-3/4 rounded-lg shadow-2xl" />
@@ -12,7 +12,7 @@ const AboutSec = () => {
             className="absolute right-5 top-1/2 border-8 border-white w-1/2 rounded-lg shadow-2xl"
           />
         </div>
-        <div className="lg:flex-1">
+        <div className="lg:flex-1 space-y-5 p-4">
           <h3 className="text-3xl font-medium text-secondary">About Us</h3>
           <h1 className="text-5xl font-bold">
             We are qualified & of experience in this field
